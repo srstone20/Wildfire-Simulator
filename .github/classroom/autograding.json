@@ -1,0 +1,44 @@
+{
+    "tests": [
+        {
+            "name": "Run basic tests",
+            "setup": "",
+            "run": "timeout 60 gradle test_basic",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 12.5
+        },
+        {
+            "name": "Run test_custom_map_creation",
+            "setup": "",
+            "run": "timeout 60 gradle test_custom_map_creation",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 12.5
+        },
+        {
+            "name": "Run test_custom_map_start_fire",
+            "setup": "",
+            "run": "timeout 60 gradle test_custom_map_start_fire",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 12.5
+        },
+        {
+            "name": "Run test_custom_map_start_fire_on_water",
+            "setup": "",
+            "run": "timeout 60 gradle test_custom_map_start_fire",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 1,
+            "points": 12.5
+        }
+    ]
+}
